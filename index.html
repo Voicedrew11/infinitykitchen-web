@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Infinity Kitchen</title>
+	<script>
+		// Function to check if the device is mobile
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+// Check if mobile and redirect
+if (isMobileDevice()) {
+    window.location.href = "https://your-mobile-site.com"; // Replace with your desired URL
+}
+	</script>
     <style>
     @font-face {
             font-family: 'Munro';
