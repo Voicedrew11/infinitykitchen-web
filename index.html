@@ -6,14 +6,14 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Infinity Kitchen</title>
 	<script>
-		// Function to check if the device is mobile
+// Function to check if the device is mobile
 function isMobileDevice() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-// Check if mobile and redirect
+// Check if mobile and redirect to subdirectory
 if (isMobileDevice()) {
-    window.location.href = "voicedrew11.github.io/infinitykitchen-web/game/"; // Replace with your desired URL
+    window.location.href = window.location.pathname + "game/";
 }
 	</script>
     <style>
